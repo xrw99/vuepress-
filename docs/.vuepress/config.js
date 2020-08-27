@@ -3,6 +3,7 @@ module.exports = {
     description: '我的心路历程',
     dest: './dist',
     port: '7777',
+    base:'/vuepress-blog/',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
